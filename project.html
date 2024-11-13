@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding:0 ;
+            margin: 0;
+            box-sizing: border-box;
+        }
+       
+        #nav1{
+            height: 12vh;
+            width: 100%;
+            /* border: 2px solid black; */
+             display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        h1{
+            font-size: 50px;
+        }
+         #nav1 i{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #nav2{
+            height: 50px;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            box-shadow: 2px 5px 5px grey;
+        }
+        #nav2 button{
+            height: 40px;
+            width: 200px;
+            border: none;
+            background-color: white;
+            transition: 0.8s;
+        }
+        #nav2 button:hover{
+            background-color: rgb(198, 192, 192);
+            border-radius: 30px;
+            
+        }
+        button img{
+            height: 40px;
+            width: 40px;
+            border: none;
+
+        }
+        #nav1 div{
+            height: 50px;
+            width: 650px;
+            border: 2px solid black;
+            display :flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 30px;
+        }
+        #nav1 input{
+            height: 40px;
+            width: 600px;
+           border: none;
+            padding-left: 20px;
+            outline: none;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+
+        }
+        #nav1 i{
+            
+            height: 45px;
+            width: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            background-color: orange;
+            transition: 0.2s;
+            color: white;
+        }
+        #nav1 i:hover{
+            border-radius: 0px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        h2{
+            font-size: 40px;
+            text-align: center;
+        } 
+       main section img{
+        height: 150px;
+        width: 150px;
+        border-radius: 200px;
+
+        
+       }
+       main section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 30 n0px;
+        width: 100%;
+        /* border: 3px solid black; */
+
+
+       }
+       h3{
+        font-size: 30px;
+       }
+       main header img{
+        height: 250px;
+        width: 200px;
+        border-radius: 20px;
+       }
+       main header{
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       }
+       footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 300px;
+        width: 100vw;
+        gap: 30px;
+        /* border:2px solid black; */
+        margin-top: 50px;
+        padding-bottom: 40px;
+       }
+       footer video{
+        height: 300px;
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       article {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+       }
+      button{
+        border: none;
+    
+        
+      }
+      #icon{
+         font-size: 20px;
+      }
+      nav h1{
+        font-size: 60px;
+        font-style: italic;
+        color:brown ;
+      }
+    article div video{
+        height: 300px;
+        width: 300px;
+
+    }
+      main section1{
+            display: flex;
+            justify-content:space-evenly ;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
+        section4{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+           
+        }
+       
+        section3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+
+        }
+        
+    
+        
+    </style>
+</head>
+<body>
+    <nav id="nav1">
+         <h1>S3D</h1>
+         <button id="icon">catagories</button>
+         <div>
+         <input type="text"placeholder="search for anything">
+         <i class="fa-solid fa-magnifying-glass"></i>
+         </div>
+         <button id="icon">sign in</button>
+         <button><img src="https://cdn-icons-png.flaticon.com/128/10597/10597864.png" alt=""></button>
+         
+        <button id="icon"><i class="fa-regular fa-heart"></i></button>
+        <button id="icon"><i class="fa-solid fa-gift"></i></button> 
+        <br><br>
+    </nav>
+    <nav id="nav2">
+        <button class="fa-solid fa-gift">gifts</button>
+        <button>Festive finds at every price</button>
+        <button>Home favourites</button>
+        <button>Fashion finds</button>
+        <button>Registry</button>
+    </nav>
+    <main>
+        <h2>Discover populer gifts from small shops</h2>
+        <br><br>
+<section>
+<div>
+    <img src="https://i.etsystatic.com/11907845/r/il/31f7a2/5476209939/il_300x300.5476209939_gapz.jpg" alt="">
+    <h4>Personalised Gifts</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/10596324/r/il/ed579c/4043658876/il_300x300.4043658876_pkuq.jpg" alt=""> 
+<h4>Baby gifts</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/48172987/c/2238/2238/173/450/il/9b9b35/6043477383/il_300x300.6043477383_6dff.jpg" alt="">
+<h4>Birthday gifts</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/14409281/c/1588/1588/0/637/il/82cc22/3652976053/il_300x300.3652976053_tvid.jpg" alt="">
+<h4>Anniversery gifts</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/6841042/r/il/4c25ae/6034153122/il_300x300.6034153122_8w1h.jpg" alt="">
+<h4>Enagagement gifts</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/12878858/r/il/47eb29/5481049870/il_300x300.5481049870_kupw.jpg" alt="">
+<h4>Gifts for grandmaa</h4>
+</div>
+</section>
+<br><br>
+<h3>Featured Catagories</h3>
+<br><br>
+<header>
+    <div>
+<img src="https://i.etsystatic.com/13699315/c/1454/1454/278/0/il/f9b78a/6457291071/il_300x300.6457291071_hm1a.jpg" alt="">
+<h4>Christmas ornaments</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/24426965/c/2261/2261/0/270/il/64732a/4144763037/il_300x300.4144763037_cm8c.jpg" alt="">
+<h4>Wall decor</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/23824347/r/il/67d7f1/5200553974/il_300x300.5200553974_4yjs.jpg" alt="">
+<h4>Signs</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/38039077/r/il/d63e52/5444700516/il_300x300.5444700516_ms9s.jpg" alt="">
+<h4>Digital prints</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/32449061/c/1459/1459/1114/362/il/f515a3/6362798735/il_300x300.6362798735_n5v6.jpg" alt="">
+<h4>Signs</h4>
+</div>
+</header>
+<br><br>
+
+<h3>populer gifts right now</h3>
+<footer>
+<div>
+<img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="">
+<h4>Personalised travel jwellery box,</h4>
+<h4>*****(7,468)</h4>
+<h4>Rs.610(63%Off)</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/34379934/c/2000/1589/0/264/il/628644/4796937795/il_340x270.4796937795_qnr6.jpg" alt="">
+<h4>Custom name necklace,18k</h4>
+<h4>*****(4,000)</h4>
+<h4> Rs.70,000(63% Off)</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/32449061/c/1459/1459/1114/362/il/f515a3/6362798735/il_340x270.6362798735_n5v6.jpg" alt="">
+<h4>Personalised vinyl record with photo</h4>
+<h4>*****(2,440)</h4>
+<h4>Rs.1,135</h4>
+</div>
+<div>
+<video src="https://videos.pexels.com/video-files/6265844/6265844-sd_640_360_25fps.mp4" controls></video>
+<h4>Christmas gift boxd</h4>
+<h4>*****(1,456)</h4>
+<h4>Rs.4,500</h4>
+</div>
+    </footer>
+    <br><br>
+    <article>
+<h3>Editor's picks
+<br><br>
+Festive decore galore!
+<br><br>
+Shop these unique finds....</h3>
+<br><br>
+
+
+<div>
+
+<video src="https://videos.pexels.com/video-files/3201318/3201318-sd_360_640_25fps.mp4" controls></video>
+</div>
+
+
+<div>
+<video src="https://videos.pexels.com/video-files/5802517/5802517-sd_360_640_30fps.mp4" controls></video>
+</div>
+
+
+</article>
+
+<h1>Shop extraordinary items at special prices</h1>
+<br><br>
+<section1>
+<div>
+<img src="https://i.etsystatic.com/25440266/c/2250/2250/0/547/il/a12994/3263018476/il_300x300.3263018476_6h3o.jpg" alt="">
+<h4>Gifts for pet parents</h4>
+<h4>Up to 20% Off</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/28443357/r/il/33e5b3/5911636258/il_300x300.5911636258_e2rz.jpg" alt="">
+<h4>Gifts for her</h4>
+<h4>Upto 25% Off</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/17305851/r/il/24d853/3341114434/il_300x300.3341114434_8k9w.jpg" alt="">
+<h4>Advent calenders</h4>
+<h4>Up to 40 % Off</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/32133570/r/il/1333e3/6456512255/il_300x300.6456512255_80ni.jpg" alt="">
+<h4>Personalised gift</h4>
+<h4>Up to 25 % Off</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/6269772/r/il/0a2412/3789154008/il_300x300.3789154008_cmyz.jpg" alt="">
+<h4>Festive hosting</h4>
+<h4>Up to 30% Off</h4>
+</div>
+</section1>
+
+<h1>Discover shops in india</h1>
+<br><br>
+<section3>
+<div>
+<img src="https://i.etsystatic.com/18539958/r/il/86bfd9/2143694539/il_570xN.2143694539_r30m.jpg" alt="">
+<h4>MejesticMitus</h4>
+</div>
+<div>
+<img src="https://i.etsystatic.com/27948800/r/il/5f56c3/6320886344/il_570xN.6320886344_gj7q.jpg" alt="">
+<h4>RUGSTRADE</h4>
+</div>
+</section3>
+
+<h1>fresh from the blog </h1>
+<section4>
+<div>
+<img src="https://i.etsystatic.com/inv/73f1ea/5310016542/inv_620x495.5310016542_ukkxc6qi.jpg?version=0" alt="">
+</div>
+<div>
+<img src="https://i.etsystatic.com/inv/1b86b2/5514321927/inv_425x340.5514321927_50cniifw.jpg?version=0" alt="">
+</div>
+<div>
+<img src="https://i.etsystatic.com/inv/0c0724/5507381345/inv_425x340.5507381345_8imomvyj.jpg?version=0" alt="">
+</div>
+</section4>
+
+</main>
+
+ 
+
+ 
+    
+</body>
+</html>
